@@ -1,7 +1,7 @@
 extends layout
 
 block content
-    div(ng-controller="indexController")
+    div(ng-controller="indexController",ng-init="init()")
         .column.twelve.wide
             .ui.stacked.segment.gameArea
                 .circle.blue(style='left:150px; top:100px')
